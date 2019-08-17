@@ -23,6 +23,25 @@ class Bitrise_ExampleTests: XCTestCase {
         // This is an example of a functional test case.
         // Use XCTAssert and related functions to verify your tests produce the correct results.
     }
+    
+    let number1 = 10
+    let number2 = 5
+    
+    func testAdd() {
+        XCTAssertEqual(number1 + number2, 15)
+    }
+    
+    func testDivide() {
+        XCTAssertEqual(number1 / number2, 2)
+    }
+    
+    func testSubtract() {
+        XCTAssertEqual(number1 - number2, 5)
+    }
+    
+    func testMutiply() {
+        XCTAssertEqual(number1 * number2, 50)
+    }
 
     func testPerformanceExample() {
         // This is an example of a performance test case.
